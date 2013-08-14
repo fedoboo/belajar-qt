@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Start</class>
+ <widget class="QMainWindow" name="Start">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>294</width>
+    <height>251</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Smart Linux</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Smart Linux&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>By KPLI Palu</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="text">
+           <string>Perintah Dasar</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/icon/img/Term.png</normaloff>:/icon/img/Term.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="toolButton">
+          <property name="text">
+           <string>...</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/icon/img/help.png</normaloff>:/icon/img/help.png</iconset>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="text">
+           <string>OpenSource</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/icon/img/Tux.png</normaloff>:/icon/img/Tux.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="toolButton_2">
+          <property name="text">
+           <string>...</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/icon/img/help.png</normaloff>:/icon/img/help.png</iconset>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="text">
+           <string>Install Aplikasi</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/icon/img/app.png</normaloff>:/icon/img/app.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="toolButton_3">
+          <property name="text">
+           <string>...</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/icon/img/help.png</normaloff>:/icon/img/help.png</iconset>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>Desktop</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/icon/img/DE.png</normaloff>:/icon/img/DE.png</iconset>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="toolButton_4">
+          <property name="text">
+           <string>...</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/icon/img/help.png</normaloff>:/icon/img/help.png</iconset>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icon/img/Tux.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>294</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionKeluar"/>
+   </widget>
+   <widget class="QMenu" name="menuOpsi">
+    <property name="title">
+     <string>Opsi</string>
+    </property>
+    <widget class="QMenu" name="menuInfo_Distro">
+     <property name="title">
+      <string>Info Distro</string>
+     </property>
+     <addaction name="actionDebian"/>
+     <addaction name="actionUbuntu"/>
+     <addaction name="actionIGN"/>
+     <addaction name="actionMint"/>
+    </widget>
+    <addaction name="actionPemula"/>
+    <addaction name="actionLanjutan"/>
+    <addaction name="actionPerintah_Dasar"/>
+    <addaction name="menuInfo_Distro"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuOpsi"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionHelp">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/img/help.png</normaloff>:/icon/img/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/img/help-about.png</normaloff>:/icon/img/help-about.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionPerintah_Dasar">
+   <property name="text">
+    <string>Perintah Dasar</string>
+   </property>
+  </action>
+  <action name="actionKeluar">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/img/application-exit.png</normaloff>:/icon/img/application-exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Keluar</string>
+   </property>
+  </action>
+  <action name="actionPemula">
+   <property name="text">
+    <string>Pemula</string>
+   </property>
+  </action>
+  <action name="actionLanjutan">
+   <property name="text">
+    <string>Lanjutan</string>
+   </property>
+  </action>
+  <action name="actionDebian">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/img/dist_deb.png</normaloff>:/icon/img/dist_deb.png</iconset>
+   </property>
+   <property name="text">
+    <string>Debian</string>
+   </property>
+  </action>
+  <action name="actionUbuntu">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/img/dist_ubuntu.png</normaloff>:/icon/img/dist_ubuntu.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ubuntu</string>
+   </property>
+  </action>
+  <action name="actionIGN">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/img/igos.png</normaloff>:/icon/img/igos.png</iconset>
+   </property>
+   <property name="text">
+    <string>IGN</string>
+   </property>
+  </action>
+  <action name="actionMint">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/icon/img/dist_mint.png</normaloff>:/icon/img/dist_mint.png</iconset>
+   </property>
+   <property name="text">
+    <string>Mint</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

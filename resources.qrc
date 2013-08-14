@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>img/about.png</file>
+        <file>img/application-exit.png</file>
+        <file>img/Back.png</file>
+        <file>img/dist_deb.png</file>
+        <file>img/dist_fedora.png</file>
+        <file>img/dist_mint.png</file>
+        <file>img/dist_opn.png</file>
+        <file>img/dist_ubuntu.png</file>
+        <file>img/menu.png</file>
+        <file>img/Next.png</file>
+        <file>img/start.png</file>
+        <file>img/Term.png</file>
+        <file>img/Tux.png</file>
+        <file>img/xterm.png</file>
+        <file>img/opsi.png</file>
+        <file>img/bg.jpg</file>
+        <file>img/bg-f.png</file>
+        <file>img/search.png</file>
+        <file>img/home.png</file>
+        <file>img/printer.png</file>
+        <file>img/arch.png</file>
+        <file>img/igos.png</file>
+        <file>img/me.png</file>
+        <file>img/help.png</file>
+        <file>img/help-about.png</file>
+        <file>img/app.png</file>
+        <file>img/DE.png</file>
+        <file>jslinux/cpux86.js</file>
+        <file>jslinux/cpux86-ta.js</file>
+        <file>jslinux/index.html</file>
+        <file>jslinux/jslinux.js</file>
+        <file>jslinux/linuxstart.bin</file>
+        <file>jslinux/root.bin</file>
+        <file>jslinux/term.js</file>
+        <file>jslinux/vmlinux26.bin</file>
+    </qresource>
+</RCC>
